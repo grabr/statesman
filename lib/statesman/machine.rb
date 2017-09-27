@@ -220,8 +220,6 @@ module Statesman
                           metadata: metadata)
 
       @storage_adapter.create(initial_state, new_state, metadata)
-
-      true
     end
 
     def execute(phase, initial_state, new_state, transition)
